@@ -8,5 +8,9 @@ public class Main {
         int size = scn.nextByte();
         int[] arr = new int[size];
         System.out.println("hello master");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int)(Math.random()*10);
+            System.out.println(arr[i]);
+        }
     }
 }
